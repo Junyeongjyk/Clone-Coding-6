@@ -1,0 +1,94 @@
+/* .section_slider */
+.section_slider {width: 100%; height: 100%; padding: 200px 0; background: #D9D9D9;}
+.section_slider .topBox {width: 100%; text-align: center; margin-bottom: 50px;}
+.section_slider .topBox .title {font-size: 75px; margin-bottom: 10px; font-family: 'Lateef', serif;}
+.section_slider .topBox .txt {font-size: 28px; color:#888; font-weight: 500;}
+.section_slider .swiper-container {width: 80%; margin: 0 auto; height: 600px; position: relative;}
+.section_slider .swiper-container .swiper-wrapper {width: 100%;}
+.section_slider .swiper-container .swiper-wrapper .swiper-slide {position: relative;}
+.section_slider .swiper-container .swiper-wrapper .swiper-slide .imgBox {width: 70%; position: relative;}
+.section_slider .swiper-container .swiper-wrapper .swiper-slide .imgBox img {width: 100%;}
+.section_slider .swiper-container .swiper-wrapper .swiper-slide .imgBox .squer {
+display: block; width: 200px; height: 100%; background: rgba(255,255,255,0.7);
+position: absolute; right: 0; top:0; z-index: 100; }
+.section_slider .swiper-container .swiper-wrapper .swiper-slide .txtBox {width: 40%; position: absolute; right: 0; top:20%;  z-index: 200;}
+.section_slider .swiper-container .swiper-wrapper .swiper-slide .txtBox h2 {font-size: 20px; margin-bottom: 30px; letter-spacing: -2px; font-weight: bold;}
+.section_slider .swiper-container .swiper-wrapper .swiper-slide .txtBox h2 span {display: block;
+    font-family: 'Lateef', serif; font-size: 75px; letter-spacing: 2px;}
+.section_slider .swiper-container .swiper-wrapper .swiper-slide .txtBox p {text-align: justify;}
+.section_slider .swiper-container .swiper-wrapper .swiper-slide .num {font-size: 120px; font-weight: 900; color:rgba(16,47,65,0.08); position: absolute;right: 0; bottom: 0; z-index: 1;}
+.section_slider .swiper-container .swiper-button-next,.section_slider .swiper-container .swiper-button-prev {width: 50px; height: 50px; background-image: none; background-color: #e4e4e4; z-index: 100; cursor: pointer; }
+.section_slider .swiper-container .swiper-button-next {position: absolute; top:3.7777%; right:0;}
+.section_slider .swiper-container .swiper-button-prev {position: absolute; top:3.777%; left:0;}
+.section_slider .swiper-container .swiper-button-next i,.section_slider .swiper-container .swiper-button-prev i {position: absolute; left: 50%; top:50%; transform: translate(-50%,-50%); color:#000; transition: all 0.3s ease-in-out;}
+
+@keyframes arrowRight {
+    0% {transform: translate(0%,-50%); }
+    50% {transform: translate(-10px,-50%); }
+    100% {transform: translate(0%,-50%); }
+}
+.section_slider .swiper-container .swiper-button-prev:hover i, .section_slider .swiper-container .swiper-button-next:hover i {-webkit-animation: arrowRight 1s infinite; animation: arrowRight 1s infinite}
+
+
+/* cordinglist */
+.cordinglist {width: 100%; height: 500vh; background: #000;}
+.cording_inner {margin: 0 auto; width: 1600px; height: 500vh; background: #000; }
+.cording_inner h2 {right: -1%; top: 5%; font-weight: normal; color: #fff;} 
+.cording_inner h2:after {content: ""; position: absolute; left: 0; top: 100px; width: 0; height: 3px; margin: 5px 0 0; transition: all 0.2s ease-in-out; transition-duration: 0.3s; opacity: 0; background-color: #fff;}
+.cording_inner h2:hover:after{width: 405px; opacity: 1;}
+
+.cording_inner .list1 {display: flex; flex-wrap: nowrap; position: relative; padding-top:12%; justify-content: space-between; }
+.cording_inner .list1 li {flex-shrink: 0!important; width: 700px; height: 700px; box-sizing: border-box;}
+.cording_inner .list1 li:nth-child(2) {margin-top: 350px;}
+.cording_inner .list1 li .box {width: 100%; height: 100%; border-radius: 30px; position: relative; background:#fff; }    
+
+.cording_inner .list2 {display: flex; flex-wrap: nowrap; position: relative; justify-content: space-between;}
+.cording_inner .list2 li {flex-shrink: 0!important; width: 700px; height: 700px; box-sizing: border-box; }
+.cording_inner .list2 li .box {width: 100%; height: 100%; border-radius: 30px; position: relative; background:#fff; }
+.cording_inner .list2 li:nth-child(2) {margin-top: 350px;}
+.cording_inner .list2 li .box {width: 100%; height: 100%; border-radius: 30px; position: relative; background:#fff; }  
+
+.cording_inner .list3 {display: flex; flex-wrap: nowrap; position: relative;  justify-content: space-between;}
+.cording_inner .list3 li {flex-shrink: 0!important; width: 700px; height: 700px; box-sizing: border-box;}
+.cording_inner .list3 li .box {width: 100%; height: 100%; border-radius: 30px; position: relative; background:#fff; } 
+.cording_inner .list3 li:nth-child(2) {margin-top: 350px;}
+.cording_inner .list3 li .box {width: 100%; height: 100%; border-radius: 30px; position: relative; background:#fff; } 
+
+.cording_inner .list4 {display: flex; flex-wrap: nowrap; position: relative;  justify-content: space-between;}
+.cording_inner .list4 li {flex-shrink: 0!important; width: 700px; height: 700px; box-sizing: border-box;}
+.cording_inner .list4 li .box {width: 100%; height: 100%; border-radius: 30px; position: relative; background:#fff; } 
+.cording_inner .list4 li:nth-child(2) {margin-top: 350px;}
+.cording_inner .list4 li .box {width: 100%; height: 100%; border-radius: 30px; position: relative; background:#fff; }
+
+.cording_inner .list li.a .box {background: #D9D9D9;}
+.cording_inner .list li.b .box {background: #D9D9D9;}
+
+
+/* con02 */
+/* .con02 .title {width: 100%; height: 100vh;font-size: 170px; line-height: 0.9; text-align: center; 
+    padding-top:30vh; box-sizing: border-box;}
+.con02 .title .en2 {font-size: 200px;}
+.con02 .workList {display: flex; justify-content: space-between; flex-wrap: wrap; width: 70%; margin: 0 auto;}
+.con02 .workList li {width:45%;  margin-top: 200px;}
+.con02 .workList li:nth-child(2n) {margin-top:0;}
+.con02 .workList li a {display: block; position: relative;}
+.con02 .workList li a .imgBox img {width: 90%; height: 90%;}
+.con02 .workList li a .textBox h3 { font-weight: normal; font-size: 35px; margin: 20px 0 5px;}
+.con02 .workList li a .textBox .info {display: flex; justify-content: space-between; color:#888;}
+    
+/* con02- workList호버효과 */
+/*.con02 .workList li a .imgBox {position: relative;}
+.con02 .workList li a .imgBox:before {content: ''; width: 168px; height: 168px; border-radius: 100%; border:1px solid #fff; background: url(../img/readMore2.png) no-repeat center/ 35px; position: absolute; left: 50%; top:50%; transform: translate(-50%,-50%) rotate(45deg); z-index:1; transition: .3s;  opacity: 0;}
+    
+    
+.con02 .workList li a .imgBox:after {content: ''; width: 0px; height: 0px; border-radius: 100%; background:#fff url(../img/readMore3.png) no-repeat center/160px; position: absolute; left: 50%; top:50%; transform: translate(-50%, -50%); z-index:1; animation-name: spin; animation-duration: 10s; animation-iteration-count: infinite;
+animation-timing-function: linear; transition: .4s;}
+    
+@keyframes spin {
+    0% {transform: translate(-50%, -50%) rotate(0deg);}
+    100% {transform: translate(-50%, -50%) rotate(360deg);}
+}
+
+.con02 .workList li a:hover .imgBox img {filter:brightness(40%); transition: .3s;}
+.con02 .workList li a:hover .imgBox:before {opacity: 1; z-index: 2;}
+.con02 .workList li a:hover .imgBox:after {width: 168px; height: 168px;} */

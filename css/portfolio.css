@@ -1,0 +1,69 @@
+
+/* visual */
+.visual {background: #fff; overflow: hidden;} 
+.visual h3 {top: 50%; margin-left: 150px; color: #000000; font-weight: normal; font-family: 'Lateef', serif; font-size: 83px; position: absolute; top: 110%; z-index: 99;}
+.visual .inner {margin: 0 auto; height: 100vh; width: 1600px; background-image: url(../img/portfolioprocess.png); background-repeat: no-repeat; background-size: 90%; background-position: center;} 
+
+.visual h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 0;
+    height: 3px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.3s;
+    opacity: 0;
+    background-color: #000;
+}
+
+.visual h3:hover::after{
+    width: 500px;
+    opacity: 1;
+}
+
+
+/* content */
+.content h2 {float: left; top: 225%; left: 8%; color: #000000; font-size: 50px; position: absolute; width: 50%;}
+.content .inner {margin: 0 auto; width: 1600px; height: 100vh; padding-top: 100px;}
+.content .list1 {display: flex; flex-wrap: nowrap; position: relative; padding-top:12%; justify-content: space-between;}
+.content .inner .list1 li {flex-shrink: 0!important; width: 480px; height: 600px; box-sizing: border-box;}
+.content .inner .list1 li:nth-child(2) {margin-top: 100px; margin-left: 80px; margin-right: 80px;}
+.content .inner .list1 li .box {width: 100%; height: 100%; border-radius: 30px; position: relative; background:#fff; overflow: hidden; }
+.content .inner .list1 li img {width: 800px; height: 600px; position: absolute; top: -5%; right: -5%; max-width: initial;}
+.content .inner .list1 li:last-child img { right: -40%;}    
+
+
+/* mindmap */
+.mindmap {background: #fff;}
+.mindmap h2 {float: left; top: 330%; left: 8%; color: #000000; font-weight: normal; font-size: 83px; font-weight: bold; position: absolute; width: 50%;}
+.mindmap .inner {margin: 0 auto; width: 1600px; height: 100vh;}
+.mindmap .inner .list2 {flex-wrap: nowrap; position: relative; display: flex; padding-top: 15%; justify-content: space-between; }
+.mindmap .inner .list2 li {flex-shrink: 0!important; width: 700px; height: 600px; box-sizing: border-box;}
+.mindmap .inner .list2 li:first-child {margin-right: 200px;}
+.mindmap .inner .list2 li .box {width: 100%; height: 100%; border-radius: 30px; position: relative; background:#000; overflow: hidden;}
+.mindmap .inner .list2 li img {width: 100%; height: 650px; position: absolute; top: -7%;} 
+.mindmap p {font-size: 20px; margin-top: 10px; margin-left: 10px;}
+
+
+/* idea */
+.idea h2 {float: left; top: 430%; left: 8%; color: #000000; font-weight: normal; font-size: 83px; font-weight: bold; position: absolute; width: 50%;}
+.idea .inner {margin: 0 auto; width: 1600px; height: 100vh;}
+.idea .inner .list3 {display: flex; flex-wrap: nowrap; position: relative;  justify-content: space-between;}
+.idea .inner .list3 li {flex-shrink: 0!important; width: 500px; height: 800px; box-sizing: border-box; padding-top: 12%; margin-right: 30px;}
+.idea .inner .list3 li .box {width: 100%; height: 100%; position: relative; } 
+.idea .inner .list3 li .box {width: 100%; height: 100%; position: relative; } 
+
+.idea .inner .list3 .a li:first-child img {width: 220px; height: 350px; position: absolute; top: -5%;}
+.idea .inner .list3 .a li:nth-child(2) img {width: 220px; height: 350px; position: absolute; top: -5%; left: 70%;}
+.idea .inner .list3 .a li:nth-child(3) img {width: 320px; height: 220px; position: absolute; top: 58%; left: 0%;}
+
+.idea .inner .list3 li:nth-child(2) img {width: 300px; height: 600px; position: absolute; top: -5%; left: 30%;}
+.idea .inner .list3 li:nth-child(3) img {width: 300px; height: 600px; position: absolute; top: -5%; left: 10%;}
+
+
+
+/* style */
+.style {width: 100%; height: 100%; background: #fff;}
+.style .style_inner {margin: 0 auto; width: 90%; height: 200vh; background-image: url(../img/Group\ 1.png); background-repeat: no-repeat; background-size: cover;}
